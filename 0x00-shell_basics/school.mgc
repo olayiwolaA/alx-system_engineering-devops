@@ -1,2 +1,2 @@
 #!/bin/bash
-0 file SCHOOL School --mime-tppe School.mgc *
+0 School SCHOOL --mime-type:-i School
