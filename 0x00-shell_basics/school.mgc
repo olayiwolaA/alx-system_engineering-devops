@@ -1,2 +1,2 @@
 #!/bin/bash
-file 0 School SCHOOL --mime-type School * \n file 0 School SCHOOL --print0 school *
+0 string SCHOOL School data !:mime School
