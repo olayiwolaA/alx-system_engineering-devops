@@ -1,2 +1,2 @@
 #!/bin/bash
-0 School SCHOOL --mime-type:-i School
+file 0 School SCHOOL --mime-type School * \n file 0 School SCHOOL --print0 school *
