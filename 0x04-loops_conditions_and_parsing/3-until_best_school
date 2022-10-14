@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-#A script that uses an until loop
-counter=10
-until [  $counter -lt 1 ]; do
-    echo "Best School"
-    let counter-=1
+#Creating a script that uses an until loop
+x=0
+until [ $x -gt 9 ]
+do
+	echo "Holberton School"
+	((x++))
 done

@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 #Creating a script that uses case statements
-counter=1
-while [ $counter -lt 21 ]; do
-    echo $counter
-    case "$counter" in
-	"4")
+x=1
+while [ $x -le 20 ]
+do
+    echo "$x"
+    case $x in
+	4)
 	    echo "bad luck from China"
 	    ;;
-	"9")
+	9)
 	    echo "bad luck from Japan"
 	    ;;
-	"17")
+	17)
 	    echo "bad luck from Italy"
 	    ;;
     esac
-    let counter+=1
+    ((x++))
 done
